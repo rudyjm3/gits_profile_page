@@ -1,0 +1,160 @@
+body {
+    background-color:black;
+}
+
+.text {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	/*padding-top: 20px;
+	padding-right: 5px;*/
+	color: white;
+	margin: 20px;
+
+}
+.button {
+
+background:#aaa;
+color:#555;
+font-weight:bold;
+font-size:15px;
+padding:10px 15px;
+border:none;
+margin:50px;
+cursor:pointer;
+
+-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+
+-o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
+-o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+-moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
+-moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+transition-property:width,height,transform,background,font-size,opacity;
+transition-duration:1s,1s,1s,1s,1s,1s;
+
+-webkit-border-radius:5px;
+border-radius:5px;
+
+/*box-shadow:0 0 2px rgba(0,0,0,0.5);
+
+text-shadow:0 0 5px rgba(255,255,255,0.5); */
+
+display:inline-block;    /* It is important for the button to rotate*/
+}
+
+
+.button:hover
+{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(360deg);
+
+background:#99A411;
+color:#fff;
+}
+
+
+.button2 {
+
+background-image: url("images/GITS-InformationAge_clip_image004_0000.jpg");
+background-size: cover;
+width: 80px;
+height: 80px;
+color:#555;
+font-weight:bold;
+font-size:15px;
+padding:10px 15px;
+border:none;
+margin:50px;
+cursor:pointer;
+
+-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+
+-o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
+-o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+-moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
+-moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+transition-property:width,height,transform,font-size,opacity;
+transition-duration:2s,2s,2s,2s,2s,2s;
+
+-webkit-border-radius:5px;
+border-radius:100px;
+
+/*box-shadow:0 0 2px rgba(0,0,0,0.5);
+
+text-shadow:0 0 5px rgba(255,255,255,0.5); */
+
+display:inline-block;    /* It is important for the button to rotate*/
+}
+
+
+.button2:hover
+{
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(720deg);
+
+background-image: url(images/HUD.png);
+background-size: cover;
+width: 200px;
+height: 200px;
+font-size:30px;
+color:#fff;
+}
+
+
+
+
+
+
+.button3  {
+background-image: url("images/HUD.png");
+
+background-size: cover;
+width: 80px;
+height: 80px;
+/*text-align: center;
+font-weight:bold;
+font-size:15px;*/
+padding:10px 15px;
+margin:10px;
+cursor:pointer;
+
+/*-webkit-transition:-webkit-transform 1s,opacity 1s,background 1s,width 1s,height 1s,font-size 1s;
+
+-o-transition-property:width,height,-o-transform,background,font-size,opacity,color;
+-o-transition-duration:1s,1s,1s,1s,1s,1s,1s;
+
+-moz-transition-property:width, height, -moz-transform, background, font-size, opacity, color;
+-moz-transition-duration:1s,1s,1s,1s,1s,1s,1s;*/
+
+transition-property:width,height,transform,font-size,opacity;
+transition-duration:2s,2s,2s,2s,2s,2s;
+
+/*-webkit-border-radius:5px;*/
+border-radius:100px;
+
+/* box-shadow:0 0 2px rgba(0,0,0,0.5);
+
+text-shadow:0 0 5px rgba(255,255,255,0.5); */
+
+display:inline-block;    /* It is important for the button to rotate*/
+}
+
+.button3:hover {
+	-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+transform: rotate(720deg);
+
+width: 200px;
+height: 200px;
+}
